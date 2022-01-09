@@ -7,39 +7,50 @@
 	</head>
 	<body>
 		<div class="header">
-			<div class="logo">
-				<img id="logo" src="./photos/logo.png" alt="Logo with two dog paws">
-				<p id="under-logo-text">DOGS</p>
+			<div class="header-top">
+				<div class="logo">
+					<!-- <img id="logo" src="./photos/logo.png" alt="Logo with two dog paws"> -->
+					<p id="under-logo-text">DOGS</p>
+				</div>
+				<div class="links">
+					<ul>
+						<li><a href="http://google.com">Catalogue</a></li>
+						<li><a href="http://google.com">History</a></li>
+						<li><a href="http://google.com">Gallery</a></li>
+						<li><a href="http://google.com">About</a></li>
+					</ul>
+				</div>
 			</div>
-			<div class="links">
-				<ul>
-					<li><a href="http://google.com">Catalogue</a></li>
-					<li>History</li>
-					<li>Gallery</li>
-					<li>About</li>
-				</ul>
+			<div class="header-content">
+				<div class="header-container">
+					<h1>Chosen dog breeds</h1>
+					<p>On this website you can find some basic informations about a few dog breeds. </br>
+						Remember to play with your own dog after you finish if you have one!</p>
+					<button id="sign-up-button">Sign up</button>
+				</div>
+				<img id="arya-one" src="./photos/arya-photo1-small.jpg" alt="Photo of my own dog Arya in an autumn forest">
 			</div>
-			<h1>Chosen dog breeds</h1>
-			<p>On this website you can find some basic informations about a few dog breeds</p>
-			<button id="sign-up-button">Sign up</button>
-			<img id="arya-one" src="./photos/arya-photo1-small.jpg" alt="Photo of my own dog Arya in an autumn forest">
+
 		</div>
 		<div class="content">
 			<div class="main-info">
 				<h2>Information about some dog breeds</h2>
 				<div class="dogs">
-					<div class="dog-portraits">
+					<div class="border-collie" id="dogid">
 						<img src="./photos/border-collie-500.jpg" alt="Photo of a Border Collie">
-						<img src="./photos/german-shepherd-500.jpg" alt="Photo of a German Shepherd">
-						<img src="./photos/golden-retriever-500.jpg" alt="Photo of a Golden Retriever">
-						<img src="./photos/husky-500.jpg" alt="Photo of a Husky">
-					</div>
-					<div class="dog-infos">
 						<p>Border Collies are very energetic and smart dogs that require a lot of attention. It is a working and a herding dog breed.</p>
+					</div>
+					<div class="german-shepherd"id="dogid">
+						<img src="./photos/german-shepherd-500.jpg" alt="Photo of a German Shepherd">
 						<p>German Shepherds are the finest all-purpose working dogs. Their high agility and strength is on par with their intelligence.</p>
+					</div>
+					<div class="golden-retriever"id="dogid">
+						<img src="./photos/golden-retriever-500.jpg" alt="Photo of a Golden Retriever">
 						<p>Golden Retrievers are considered to be one of the prime choices for a family dog. They desire everlasting company of a human and almost completely lack any form of agression.</p>
-						<p>Huskies are thickly furred dogs belonging to the Spitz genetic Family. They are often described as 'escape artists', as they tend to find countless ways to break free and run away. After a few hours or even days they eventually happily come back to their owners.</p>
-
+					</div>
+					<div class="husky"id="dogid">
+						<img src="./photos/husky-500.jpg" alt="Photo of a Husky">
+						<p>Huskies are thickly furred dogs often described as 'escape artists', as they tend to find countless ways to break free and run away. After a few hours or even days they eventually happily come back to their owners.</p>
 					</div>
 				</div>
 			</div>
@@ -48,35 +59,15 @@
 				<p id="quote-author"> — Anne Tyler (author, The Accidental Tourist)</p>
 			</div>
 			<div class="signup-box">
+				<div class="signup-box-text">
 				<h3>Interested about facts and stories about dogs?</h3>
 				<p>Sign up for a free weekly newsletter now!</p>
+			</div>
 				<button id="signup-button">Sign up!</button>
 			</div>
 		</div>
 		<div class="footer">
-			by Paweł Wiśniewski 2022.
+			by <span id="me">Paweł Wiśniewski 2022</span></br>
 		</div>
 	</body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	</body>
-
-
-
-
-
 </html>
